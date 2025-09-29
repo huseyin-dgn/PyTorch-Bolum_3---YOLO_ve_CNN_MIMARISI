@@ -40,6 +40,20 @@ Eğer runs/ klasörü yoksa, YOLO çıktıları kaydedilemez ve notebook hata ve
 
 ## 📂 Proje Yapısı
 
+### 🤖 Klasör Açıklamaları
+
+- `PyTorch_CNN_Uygulamalar/` → CNN temel uygulamalar ve örnek veri setleri  
+- `YOLO/` → YOLO mimarisi, kendi model eğitimi, RoboFlow entegrasyonu ve uygulama klasörleri  
+- `Uygulamalar/1_Yol_Tumsek/` → özel yol/tümsek veri ve tahmin çıktıları  
+- `runs/` → model çıktı klasörü (kullanıcı ekleyecek, repo’ya dahil değil)
+
+## 📖 Kaynaklar
+
+- [YOLOv8 Official Documentation](https://docs.ultralytics.com/)  
+- [PyTorch Tutorials](https://pytorch.org/tutorials/)  
+- [Roboflow](https://roboflow.com/)
+
+```bash
 PyTorch-Bolum_3---YOLO_ve_CNN_MIMARISI/
 │
 ├── YOLO - CNN/
@@ -75,16 +89,5 @@ PyTorch-Bolum_3---YOLO_ve_CNN_MIMARISI/
 │           └── yolov8_demo.ipynb
 
 
-### 🤖 Klasör Açıklamaları
 
-- `PyTorch_CNN_Uygulamalar/` → CNN temel uygulamalar ve örnek veri setleri  
-- `YOLO/` → YOLO mimarisi, kendi model eğitimi, RoboFlow entegrasyonu ve uygulama klasörleri  
-- `Uygulamalar/1_Yol_Tumsek/` → özel yol/tümsek veri ve tahmin çıktıları  
-- `runs/` → model çıktı klasörü (kullanıcı ekleyecek, repo’ya dahil değil)
-
-## 📖 Kaynaklar
-
-- [YOLOv8 Official Documentation](https://docs.ultralytics.com/)  
-- [PyTorch Tutorials](https://pytorch.org/tutorials/)  
-- [Roboflow](https://roboflow.com/)
 
