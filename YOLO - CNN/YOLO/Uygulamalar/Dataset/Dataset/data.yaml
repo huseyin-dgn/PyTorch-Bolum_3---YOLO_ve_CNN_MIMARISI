@@ -1,0 +1,7 @@
+# Küçük dataset için YOLOv8 data.yaml
+
+train: C:/YOLO/YOLO/Uygulamalar/Dataset/Dataset/Train/images
+val: C:/YOLO/YOLO/Uygulamalar/Dataset/Dataset/Test/images
+
+nc: 2
+names: ["bump", "road"]
