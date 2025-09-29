@@ -19,7 +19,7 @@ YOLO (You Only Look Once) ve CNN (Konvolüsyonel Sinir Ağları) mimarileri üze
 - Dosya boyutu büyük olduğu için repoya eklenmemiştir.  
 - Ancak, **dosya yolları ve klasör yapısı korunmuştur**, yani mevcut kod çalıştırılabilir.
 
-## 📁 `runs/` Klasörünün Kullanımı
+## ⚙️ `runs/` Klasörünün Kullanımı
 
 `runs/` klasörü, YOLO ile yapılan **model eğitimi ve tahmin çıktılarının** saklandığı klasördür.  
 Repo içerisinde bu klasör **bulunmamaktadır**, kullanıcı tarafından oluşturulmalıdır.
@@ -38,12 +38,6 @@ YOLO modellerini çalıştırdığınızda, detect veya train komutları çıkt�
 Mevcut dosya ve klasör yolları korunmuştur, bu nedenle notebook’lar çalıştırıldığında runs/ klasörü otomatik olarak dolacaktır.
 Eğer runs/ klasörü yoksa, YOLO çıktıları kaydedilemez ve notebook hata verir.
 
-
-
-
-### 5️⃣ Proje Yapısı
-
-```markdown
 ## 📂 Proje Yapısı
 
 PyTorch-Bolum_3---YOLO_ve_CNN_MIMARISI/
@@ -81,7 +75,7 @@ PyTorch-Bolum_3---YOLO_ve_CNN_MIMARISI/
 │           └── yolov8_demo.ipynb
 
 
-### Klasör Açıklamaları
+### 🤖 Klasör Açıklamaları
 
 - `PyTorch_CNN_Uygulamalar/` → CNN temel uygulamalar ve örnek veri setleri  
 - `YOLO/` → YOLO mimarisi, kendi model eğitimi, RoboFlow entegrasyonu ve uygulama klasörleri  
