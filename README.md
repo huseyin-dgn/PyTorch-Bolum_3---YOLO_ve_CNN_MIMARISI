@@ -5,19 +5,24 @@
 Bu proje, **derin öğrenme ve bilgisayarla görü** konularını öğrenmek isteyenler için hazırlanmıştır.  
 YOLO (You Only Look Once) ve CNN (Konvolüsyonel Sinir Ağları) mimarileri üzerinden **nesne tespiti ve görüntü sınıflandırma** uygulamaları yapılmıştır.
 
+---
 ## 📌 Proje Hedefleri
 
 - YOLO mimarisini detaylı olarak incelemek  
 - CNN ile görüntü sınıflandırma yapmak  
 - YOLO ve CNN’i birlikte kullanarak nesne tespiti örnekleri geliştirmek  
 - PyTorch kullanarak model eğitimi, doğrulama ve tahmin süreçlerini göstermek
-  
+
+---
+
 ## ⚠️ Veri Seti Hakkında
 
 - Veri seti **repo içerisinde bulunmamaktadır**.  
 - Veri setini **uyari.txt** dosyasından bulabilirsiniz.  
 - Dosya boyutu büyük olduğu için repoya eklenmemiştir.  
 - Ancak, **dosya yolları ve klasör yapısı korunmuştur**, yani mevcut kod çalıştırılabilir.
+
+---
 
 ## ⚙️ `runs/` Klasörünün Kullanımı
 
@@ -38,6 +43,8 @@ YOLO modellerini çalıştırdığınızda, detect veya train komutları çıkt�
 Mevcut dosya ve klasör yolları korunmuştur, bu nedenle notebook’lar çalıştırıldığında runs/ klasörü otomatik olarak dolacaktır.
 Eğer runs/ klasörü yoksa, YOLO çıktıları kaydedilemez ve notebook hata verir.
 
+---
+
 ## 📂 Proje Yapısı
 
 ### 🤖 Klasör Açıklamaları
@@ -47,12 +54,15 @@ Eğer runs/ klasörü yoksa, YOLO çıktıları kaydedilemez ve notebook hata ve
 - `Uygulamalar/1_Yol_Tumsek/` → özel yol/tümsek veri ve tahmin çıktıları  
 - `runs/` → model çıktı klasörü (kullanıcı ekleyecek, repo’ya dahil değil)
 
+----
+
 ## 📖 Kaynaklar
 
 - [YOLOv8 Official Documentation](https://docs.ultralytics.com/)  
 - [PyTorch Tutorials](https://pytorch.org/tutorials/)  
 - [Roboflow](https://roboflow.com/)
 
+--- 
 ```bash
 PyTorch-Bolum_3---YOLO_ve_CNN_MIMARISI/
 │
